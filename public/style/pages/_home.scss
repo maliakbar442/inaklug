@@ -1,0 +1,216 @@
+.page-content {
+  .header-home {
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .rectangle-header {
+      background: linear-gradient(
+        90deg,
+        #46074e 0%,
+        rgba(25, 123, 208, 0.8) 100%
+      );
+
+      box-shadow: 10px 10px 4px 0 rgba(0, 0, 0, 0.2);
+      width: auto;
+      height: 160px;
+      margin-top: 400px;
+      @include media-breakpoint-up(lg) {
+        margin-top: 480px;
+        margin-left: 90px;
+        height: 120px;
+        width: 621px;
+      }
+
+      .rectangle-title {
+        color: #ffffff;
+        font-size: 20px;
+        line-height: 30px;
+      }
+    }
+  }
+
+  .about-us {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #eaeaea;
+
+    .about-title {
+      color: #4a4a4a;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 29px;
+      margin-bottom: 30px;
+    }
+
+    .about-desc {
+      color: #4a4a4a;
+      font-size: 18px;
+      line-height: 30px;
+      font-weight: 300;
+    }
+  }
+
+  .service-content {
+    padding-top: 80px;
+
+    .service-title {
+      color: #4a4a4a;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 29px;
+      margin-bottom: 30px;
+    }
+
+    .figure {
+      .figure-img {
+        position: relative;
+        border-radius: 6px;
+
+        img {
+          width: 360px;
+          height: 270px;
+          object-fit: cover;
+        }
+
+        a {
+          border-radius: 6px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 8px;
+          background: linear-gradient(
+            90deg,
+            #46074e 0%,
+            rgba(25, 123, 208, 0) 100%
+          );
+          text-decoration: none;
+
+          .figure-title {
+            color: #fff;
+            font-weight: 400;
+            margin-top: auto;
+            margin-right: auto;
+            margin-left: 40px;
+            margin-bottom: 30px;
+            font-size: 20px;
+          }
+
+          &:hover {
+            background: none;
+          }
+        }
+      }
+    }
+  }
+
+  .mitra-content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    .mitra-title {
+      color: #4a4a4a;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 29px;
+      margin-bottom: 60px;
+    }
+
+    .card-mitra {
+      height: 130px;
+
+      .card-img {
+        max-height: 125px;
+        max-width: 200px;
+      }
+    }
+  }
+
+  .card-konseling {
+    background: linear-gradient(
+      90deg,
+      #46074e 0%,
+      rgba(25, 123, 208, 0.8) 100%
+    );
+    border-radius: 6px;
+    padding-top: 10px;
+
+    .title-konseling {
+      color: #ffffff;
+      font-size: 20px;
+    }
+    .desc-konseling {
+      color: #ffffff;
+      font-size: 16px;
+    }
+    .btn-konseling {
+      background: transparent;
+      border: 1px solid #fff;
+      border-radius: 20px;
+      width: 230px;
+      height: 45px;
+      font-size: 16px;
+      color: #fff;
+
+      &:hover {
+        background-color: #123b69;
+      }
+    }
+  }
+
+  .artikel-content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #eaeaea;
+
+    .artikel-title {
+      color: #4a4a4a;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 29px;
+      margin-bottom: 60px;
+    }
+
+    .img-artikel {
+      border-radius: 6px;
+      width: 360px;
+      height: 195px;
+      object-fit: cover;
+    }
+
+    .artikel-subtitle {
+      color: #4a4a4a;
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+    .btn-artikel {
+      text-decoration: none;
+    }
+  }
+
+  .contact-us-content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    .contact-title {
+      color: #4a4a4a;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 29px;
+      margin-bottom: 60px;
+    }
+
+    .contact-subtitle {
+      color: #4a4a4a;
+      font-size: 18px;
+    }
+
+    .contact-fill {
+      color: #5c5c5c;
+      font-size: 16px;
+      line-height: 30px;
+    }
+  }
+}

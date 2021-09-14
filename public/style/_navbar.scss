@@ -1,0 +1,41 @@
+.bg-navbar {
+  background: linear-gradient(90deg, #46074e 0%, rgba(25, 123, 208, 0.8) 100%);
+
+  .navbar-fixed {
+    .btn-daftar {
+      background: #195395;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 20px;
+      width: 150px;
+      height: 40px;
+      font-size: 13px;
+      color: #fff;
+      margin-left: auto;
+
+      &:hover {
+        background-color: #123b69;
+      }
+    }
+
+    .active {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    }
+
+    .nav-link {
+      color: #fff;
+      padding: 0;
+      padding-bottom: 2px;
+      font-size: 13px;
+    }
+
+    .nav-search {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+
+      .search-box {
+        border: none;
+        background: none;
+        border-radius: 0;
+      }
+    }
+  }
+}

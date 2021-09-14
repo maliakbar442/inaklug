@@ -1,0 +1,140 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background-color:  #f8f8f8;
+}
+
+
+@font-face{
+  font-family:'Ubuntu';
+  
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;  
+  color: #FFFFFF;  
+  font-size: 13px;
+  line-height: 16px;
+  text-align: left;
+}
+
+section{ 
+padding: 5rem 0;
+}
+
+section .color{
+background-color: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Ubuntu';
+   word-break: break-word;
+}
+.clearfix {
+    overflow: auto;
+    position: relative;
+}
+.clearfix::after {
+  display: block;
+  clear: both;
+  /*content: "";*/
+}
+hr {
+  
+   border: solid 0.8px #d8d8d8;
+}
+
+div{
+  word-break: break-word;
+}
+#footer{
+  
+  padding: 1% 0;
+  background-color:#214498;
+  color: white;
+}
+a:hover {text-decoration:none;}
+h6 a{
+  border:none;
+  color: white;
+   padding: 5px 2px;
+   transition: 0.3s;
+   margin: 4px 2px;
+
+}
+ h6 a:hover{
+  
+  color: white;
+  text-decoration:underline;
+}
+
+
+
+.gbutama {
+  /*position: absolute;*/
+  /*max-width: 100%;*/
+}
+.boxlayanankami{ 
+  display:inline-block;  
+  background-image: linear-gradient(90deg, #46074E 0%, rgba(25, 123, 208, 0) 100%);
+  border-radius: 6px;
+  z-index:-2 ;
+  width: 360px;
+  height: 270px;  
+  margin: 15px 0;
+}
+.efek{
+  background-image: linear-gradient(90deg, #46074E 0%, rgba(25, 123, 208, 0) 100%);
+}
+.boxselengkapnya{
+  position: absolute;
+  background-image: linear-gradient(90deg, #46074E 0%, rgba(25, 123, 208, 0.8) 100%);
+  box-shadow: 10px 10px 4px 0 rgba(0, 0, 0, 0.2);
+  width: 40%;
+  height: auto;
+  /*z-index: 100;*/
+  left: 5%;
+}
+.rectselengkapnya{
+  background: none;
+  border: 1px solid #FFFFFF;
+  /*color: #46074E;*/
+  /*background-image: linear-gradient(90deg, #46074E 0%, rgba(25, 123, 208, 0.8) 100%);*/
+  border-radius: 22.5px;
+  width: 210px;
+  height: 45px;
+  
+
+}
+.boxkonseling{
+  position: absolute;
+background-image: linear-gradient(90deg, #46074E 0%, rgba(25, 123, 208, 0.8) 100%);
+  border-radius: 6px;
+  width: 70%;
+  height: auto;
+  left:15%;
+  /*top:50%;
+  
+  *//*transform:translate(-50%,-50%);*/
+}
+.reckonseling{
+  background: none;
+ border: 1px solid #FFFFFF;
+  border-radius: 22.5px;
+  width: 230px;
+  height: 45px;
+}
+.daftar {
+  background:none;
+  border: 2px solid #FFFFFF;
+  border-radius: 20px;
+  width: 140px;
+  height: 40px;
+  
+}

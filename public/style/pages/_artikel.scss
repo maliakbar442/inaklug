@@ -1,0 +1,57 @@
+.page-content {
+  .header-artikel {
+    position: relative;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .artikel-layer {
+      background: linear-gradient(
+        90deg,
+        rgba(70, 7, 78, 0.8) 0%,
+        rgba(25, 123, 208, 0) 100%
+      );
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .artikel-tips {
+      font-size: 20px;
+      font-weight: 300;
+    }
+  }
+
+  .new-artikel {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #eaeaea;
+    .new-header {
+      color: #4a4a4a;
+      font-size: 16px;
+    }
+  }
+
+  .title-detail-artikel {
+    color: #000000;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 400;
+    margin-top: 120px;
+  }
+
+  .img-detail-artikel {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .text-detail-artikel {
+    color: #4a4a4a;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+  }
+}

@@ -1,0 +1,8 @@
+#footer{
+	padding: 20px 0;
+	max-width: 1366px;
+ 	min-height: 100px;
+ 	background-image: linear-gradient(90deg, #46074E 0%, rgba(25, 123, 208, 0.8) 100%);
+ 	color: white;
+
+}
