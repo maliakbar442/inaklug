@@ -13,11 +13,15 @@ $asset = config('constants.asset');
 Inaklug</title>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet"> -->
+
 <link href = "{{$asset('bootstrap/dist/css/bootstrap.min.css')}}" rel="stylesheet" />
+<!-- <link href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" /> -->
+
 <link href ="{{$asset('css/main.css')}}" rel="stylesheet" />
 <link href ="{{$asset('css/style.css')}}" rel="stylesheet" />
 <script src="{{$asset('js/jquery.min.js')}}"></script>
+<!-- <script src= "{{$asset('bootstrap/dist/js/bootstrap.min.js')}}"></script> -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
  <!-- <style type="text/css">
   .title-nav{
   /*width: 100px;*/
@@ -65,7 +69,7 @@ Inaklug
 <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12" style="margin-left: -10%; ">
 <div class="collapse navbar-collapse" >
   <ul class="nav navbar-nav" >
-    <li class="nav-item active" >
+    <li class="nav-item active" style="margin-top: 1%;" >
       <a class="nav-link title-nav active"  href="/" style="color: #FFFFFF">HOME
        <span class="sr-only">(current)</span>
      </a>
@@ -87,7 +91,7 @@ Inaklug
 </div>
 </div>
 <!-- Bagian Search dan Daftar online -->
-<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" style="margin-top: 2%; padding: 0 5%;">
+<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" style="margin-top: 1.5%; padding: 0 5%;">
   <!-- <div class="input-group">
   <button type="button" class="btn btn-primary">
     <i class="fa fa-search"></i>
@@ -98,7 +102,7 @@ Inaklug
   </div>  
   
 </div> -->
-  <button class="daftar navbar-right clearfix text-center">
+  <button class="daftar navbar-right  text-center">
     <a href="" style="color: #FFFFFF;font-size: 13px;
   line-height: 16px;">Daftar Online</a>
   </button>
